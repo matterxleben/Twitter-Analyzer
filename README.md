@@ -38,6 +38,7 @@ During the collection of data, I took 3 trails of each input and took average of
 
 ### c. Output:
 The output is the same tweet counts and top 20 users for the ArrayList, TreeMap, and HashMap. When running the program with a HashMap and 2000 total tweets (MAX_TWEETS = 1000) the output of the program is:
+![image](https://user-images.githubusercontent.com/77474191/163632638-bbc4383b-7bdf-4ea9-92f8-b648777418f9.png)
  
 ## 3.	Discussion of performance + choice:
 Looking at the worst-case time complexity and the empirical results from timing the outputs, the ArrayList implementation is the worst as it has O(n^2) worst case time complexity and it takes the longest time from the empirical results, measured in seconds. Looking at the TreeMap and HashMap, they both have the same worst case time complexity of O(n^2). However, HashMap has a faster time via the empirical data and this is because the TreeMap automatically sorts due to natural ordering of the keys, which in this case is alphabetically of the user ID’s. TreeMap has to do extra sorting which isn’t necessary in this case and makes its runtime longer. Therefore, the HashMap is the best choice and is the fastest.
