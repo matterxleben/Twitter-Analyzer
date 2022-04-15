@@ -1,7 +1,7 @@
 # Tweet-Analyzer
 MSCI 240 – Data Structures &amp; Algorithms: Tweet Analyzer Assignment
 
-This program takes 2 CSV's of U.S. federal election (tweets about Donald Trump and Joe Biden) and determines the top 20 twitter users in terms of how many tweets they posted about either/both candidate. This program does this using 3 different implementations (ArrayList, TreeMap, HashMap) to count the tweets, add it the respective implementation and sort and output the top 20 twitter users. The program obtains the top 20 twitter users by using a Priority Queue with a Max Heap. This program can be used to compare the 3 different implementations by changing the MAX_TWEETS variable to different input sizes (up to 1000000 tweets each) and by running the 3 different implementations to see how long they take and their respective outputs.
+This program takes 2 CSV's of U.S. federal election data (tweets about Donald Trump and Joe Biden) and determines the top 20 twitter users in terms of how many tweets they posted about either/both candidate. This program does this using 3 different implementations (ArrayList, TreeMap, HashMap) to count the tweets, add it the respective implementation and sort and output the top 20 twitter users. The program obtains the top 20 twitter users by using a Priority Queue with a Max Heap. This program can be used to compare the 3 different implementations by changing the MAX_TWEETS variable to different input sizes (up to 1000000 tweets each) and by running the 3 different implementations to see how long they take and their respective outputs.
 
 
 ## 1.	Introduction:
